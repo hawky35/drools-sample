@@ -25,6 +25,18 @@
       <import>
         <type>java.util.ArrayList</type>
       </import>
+	  <import>
+        <type>org.sample.drools.model.Discount</type>
+      </import>
+	  <import>
+        <type>org.sample.drools.model.Purchase</type>
+      </import>
+	  <import>
+        <type>org.sample.drools.model.Customer</type>
+      </import>
+	  <import>
+        <type>org.sample.drools.model.Product</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
