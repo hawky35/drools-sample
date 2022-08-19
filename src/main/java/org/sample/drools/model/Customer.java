@@ -3,7 +3,9 @@ package org.sample.drools.model;
 import java.io.Serializable;
 
 public class Customer implements Serializable {
+    @org.kie.api.definition.type.Label("name")
     private String name;
+    @org.kie.api.definition.type.Label("discount")
     private int    discount;
     public Customer(String name,
                     int discount) {
